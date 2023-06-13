@@ -1,0 +1,34 @@
+[build-system]
+requires = [
+  "numpy",
+  "tensorflow >= 2.0",
+  "keras",
+  "scikit-learn"
+]
+
+
+
+[project]
+name = "ExPSO"
+version = "0.1.4"
+authors = [
+  { name="Insaf Kraidia", email="insaf.kraidia@univ-constantine2.dz" },
+  { name="Khelil Kassoul", email="khelil.kassoul@etu.unige.ch" },
+  { name="Samir Brahim Belhaouari", email="sbelhaouari@hbku.edu.qa" },
+  { name="Naoufel Cheikhrouhou",email="naoufel.cheikhrouhou@hesge.ch"},
+  { name="Nicolas Zufferey",email="nicolas.zufferey.1@ulaval.ca"}
+
+]
+description = "The Exponential Particle Swarm Optimization (ExPSO) is a Python library that implements an extended variant of the Particle Swarm Optimization (PSO) algorithm. "
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/insafkraidia/ExPSO.git"
+"Bug Tracker" = "https://github.com/insafkraidia/ExPSO.git"
+
