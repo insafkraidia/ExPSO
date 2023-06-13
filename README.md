@@ -1,6 +1,6 @@
 # Exponential Particle Swarm Optimization for Global Optimization (ExPSO)
 
-<p align="center" style=""> <img src="https://github.com/insafkraidia/ExPSO/blob/master/src/06.png?raw=true"> </p>
+<p align="center" style=""> <img src="https://raw.githubusercontent.com/insafkraidia/ExPSO/master/src/06.png"> </p>
 
 The ExPSO package is a Python library that includes an algorithm designed to optimize machine and deep learning parameters/hyperparameters. This method involves dividing the swarm population into three subpopulations and employing a search strategy that incorporates an exponential function. By doing so, the particles are able to take significant leaps within the search space. Additionally, the algorithm dynamically adjusts the control of each particle's velocity range to strike a balance between exploration and exploitation during the search process. The leaping strategy is integrated into the velocity equation, and a new cognitive parameter that linearly decreases over time is introduced, along with a dynamic inertia weight strategy. To obtain further information, we recommend referring to the journal paper available at [Exponential Particle Swarm Optimization for Global Optimization (ExPSO)](https://ieeexplore.ieee.org/document/9837898/).
 
@@ -19,7 +19,7 @@ The ExPSO package is a Python library that includes an algorithm designed to opt
 
 ## Flowchart of the proposed ExPSO
 
-<p align="center" style="max-width: 100%;height: 900px;width: 600px;"> <img src="https://github.com/insafkraidia/ExPSO/blob/62b69fe475f026dcbab2d5339d8a05ce36b257a9/src/01.png?raw=true"> </p>
+<p align="center" style="max-width: 100%;height: 900px;width: 600px;"> <img src="https://raw.githubusercontent.com/insafkraidia/ExPSO/master/src/01.png"> </p>
 
 ## Installation
 
@@ -102,7 +102,7 @@ Note: The result of this function is an object that can be accessed by the user,
 
 ### Experiment 1. ExPSO with rosenbrock function
 
-<p align="center" style=""> <img src="https://github.com/insafkraidia/ExPSO/blob/62b69fe475f026dcbab2d5339d8a05ce36b257a9/src/10.png?raw=true"> </p>
+<p align="center" style=""> <img src="https://raw.githubusercontent.com/insafkraidia/ExPSO/master/src/10.png"> </p>
 
 The following example demonstrates the optimization process of ExPSO using the rosenbrock function:
 
@@ -137,7 +137,7 @@ Best solution found:
 
 ### Experiment 2. ExPSO with ackley function
 
-<p align="center" style=""> <img src="https://github.com/insafkraidia/ExPSO/blob/62b69fe475f026dcbab2d5339d8a05ce36b257a9/src/08.png?raw=true"> </p>
+<p align="center" style=""> <img src="https://raw.githubusercontent.com/insafkraidia/ExPSO/master/src/08.png"> </p>
 
 The following example demonstrates the optimization process of ExPSO using the ackley function:
 
@@ -283,7 +283,7 @@ In [Exponential Particle Swarm Optimization for Global Optimization (ExPSO)](htt
 - FastPSO :Fast parallel Particle Swarm Optimization package (FastPSO) https://pypi.org/project/fastPSO/.
   The results show significant progress and effective improvements accomplished using ExPSO for different models including CNN, LSTM, XLNET, and MLP.
 
-<p align="center" style=""> <img src="https://github.com/insafkraidia/ExPSO/blob/62b69fe475f026dcbab2d5339d8a05ce36b257a9/src/88.png?raw=true"> </p>
+<p align="center" style=""> <img src="https://raw.githubusercontent.com/insafkraidia/ExPSO/master/src/88.png"> </p>
 
 ## Reference
 
